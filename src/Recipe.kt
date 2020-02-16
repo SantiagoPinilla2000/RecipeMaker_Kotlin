@@ -42,12 +42,10 @@ fun makeRecipe() {
         val respuestaUsuario3: String? = readLine()
         if (respuestaUsuario3.equals("1") || respuestaUsuario3.equals("continuar a recetas")) {
             viewRecipe()
-        }
-        else if (respuestaUsuario3.equals("2") || respuestaUsuario3.equals("salir")) {
+        } else if (respuestaUsuario3.equals("2") || respuestaUsuario3.equals("salir")) {
             println("\nGracias, Vuelve pronto y nunca pares de cocinar ;)")
         }
-    }
-    else if (respuestaUsuario2.equals("2") || respuestaUsuario2.equals("leche")) {
+    } else if (respuestaUsuario2.equals("2") || respuestaUsuario2.equals("leche")) {
         println("El ingrediente que seleccionaste es: ${ingredientes[1]}")
         println(
             "\n¿Deseas continuar y ver tus recetas o quieres salir del sistema?" +
@@ -57,12 +55,10 @@ fun makeRecipe() {
         val respuestaUsuario3: String? = readLine()
         if (respuestaUsuario3.equals("1") || respuestaUsuario3.equals("continuar a recetas")) {
             viewRecipe()
-        }
-        else if (respuestaUsuario3.equals("2") || respuestaUsuario3.equals("salir")) {
+        } else if (respuestaUsuario3.equals("2") || respuestaUsuario3.equals("salir")) {
             println("\nGracias, Vuelve pronto y nunca pares de cocinar ;)")
         }
-    }
-    else if (respuestaUsuario2.equals("3") || respuestaUsuario2.equals("carne")) {
+    } else if (respuestaUsuario2.equals("3") || respuestaUsuario2.equals("carne")) {
         println("El ingrediente que seleccionaste es: ${ingredientes[2]}")
         println(
             "\n¿Deseas continuar y ver tus recetas o quieres salir del sistema?" +
@@ -72,12 +68,10 @@ fun makeRecipe() {
         val respuestaUsuario3: String? = readLine()
         if (respuestaUsuario3.equals("1") || respuestaUsuario3.equals("continuar a recetas")) {
             viewRecipe()
-        }
-        else if (respuestaUsuario3.equals("2") || respuestaUsuario3.equals("salir")) {
+        } else if (respuestaUsuario3.equals("2") || respuestaUsuario3.equals("salir")) {
             println("\nGracias, Vuelve pronto y nunca pares de cocinar ;)")
         }
-    }
-    else if (respuestaUsuario2.equals("4") || respuestaUsuario2.equals("verduras")) {
+    } else if (respuestaUsuario2.equals("4") || respuestaUsuario2.equals("verduras")) {
         println("El ingrediente que seleccionaste es: ${ingredientes[3]}")
         println(
             "\n¿Deseas continuar y ver tus recetas o quieres salir del sistema?" +
@@ -87,12 +81,10 @@ fun makeRecipe() {
         val respuestaUsuario3: String? = readLine()
         if (respuestaUsuario3.equals("1") || respuestaUsuario3.equals("continuar a recetas")) {
             viewRecipe()
-        }
-        else if (respuestaUsuario3.equals("2") || respuestaUsuario3.equals("salir")) {
+        } else if (respuestaUsuario3.equals("2") || respuestaUsuario3.equals("salir")) {
             println("\nGracias, Vuelve pronto y nunca pares de cocinar ;)")
         }
-    }
-    else if (respuestaUsuario2.equals("5") || respuestaUsuario2.equals("frutas")) {
+    } else if (respuestaUsuario2.equals("5") || respuestaUsuario2.equals("frutas")) {
         println("El ingrediente que seleccionaste es: ${ingredientes[4]}")
         println(
             "\n¿Deseas continuar y ver tus recetas o quieres salir del sistema?" +
@@ -102,12 +94,10 @@ fun makeRecipe() {
         val respuestaUsuario3: String? = readLine()
         if (respuestaUsuario3.equals("1") || respuestaUsuario3.equals("continuar a recetas")) {
             viewRecipe()
-        }
-        else if (respuestaUsuario3.equals("2") || respuestaUsuario3.equals("salir")) {
+        } else if (respuestaUsuario3.equals("2") || respuestaUsuario3.equals("salir")) {
             println("\nGracias, Vuelve pronto y nunca pares de cocinar ;)")
         }
-    }
-    else if (respuestaUsuario2.equals("6") || respuestaUsuario2.equals("cereal")) {
+    } else if (respuestaUsuario2.equals("6") || respuestaUsuario2.equals("cereal")) {
         println("El ingrediente que seleccionaste es: ${ingredientes[5]}")
         println(
             "\n¿Deseas continuar y ver tus recetas o quieres salir del sistema?" +
@@ -117,12 +107,10 @@ fun makeRecipe() {
         val respuestaUsuario3: String? = readLine()
         if (respuestaUsuario3.equals("1") || respuestaUsuario3.equals("continuar a recetas")) {
             viewRecipe()
-        }
-        else if (respuestaUsuario3.equals("2") || respuestaUsuario3.equals("salir")) {
+        } else if (respuestaUsuario3.equals("2") || respuestaUsuario3.equals("salir")) {
             println("\nGracias, Vuelve pronto y nunca pares de cocinar ;)")
         }
-    }
-    else if (respuestaUsuario2.equals("7") || respuestaUsuario2.equals("huevos")) {
+    } else if (respuestaUsuario2.equals("7") || respuestaUsuario2.equals("huevos")) {
         println("El ingrediente que seleccionaste es: ${ingredientes[6]}")
         println(
             "\n¿Deseas continuar y ver tus recetas o quieres salir del sistema?" +
@@ -132,12 +120,10 @@ fun makeRecipe() {
         val respuestaUsuario3: String? = readLine()
         if (respuestaUsuario3.equals("1") || respuestaUsuario3.equals("continuar a recetas")) {
             viewRecipe()
-        }
-        else if (respuestaUsuario3.equals("2") || respuestaUsuario3.equals("salir")) {
+        } else if (respuestaUsuario3.equals("2") || respuestaUsuario3.equals("salir")) {
             println("\nGracias, Vuelve pronto y nunca pares de cocinar ;)")
         }
-    }
-    else if (respuestaUsuario2.equals("8") || respuestaUsuario2.equals("aceite")) {
+    } else if (respuestaUsuario2.equals("8") || respuestaUsuario2.equals("aceite")) {
         println("El ingrediente que seleccionaste es: ${ingredientes[7]}")
         println(
             "\n¿Deseas continuar y ver tus recetas o quieres salir del sistema?" +
@@ -147,8 +133,7 @@ fun makeRecipe() {
         val respuestaUsuario3: String? = readLine()
         if (respuestaUsuario3.equals("1") || respuestaUsuario3.equals("continuar a recetas")) {
             viewRecipe()
-        }
-        else if (respuestaUsuario3.equals("2") || respuestaUsuario3.equals("salir")) {
+        } else if (respuestaUsuario3.equals("2") || respuestaUsuario3.equals("salir")) {
             println("\nGracias, Vuelve pronto y nunca pares de cocinar ;)")
         }
     } else {
@@ -163,4 +148,3 @@ fun viewRecipe() {
         println("$i")
     }
 }
-

@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0a8da2e2-aff1-4f0a-b4f8-4de00a8e54e0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RecipesMaker/RecipeKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RecipesMaker/RecipeKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Recipe.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recipe.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
