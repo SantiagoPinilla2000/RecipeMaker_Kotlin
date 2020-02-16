@@ -21,9 +21,11 @@ fun begin() {
     }
 }
 
+val ingredientes: Array<String> =
+    arrayOf("Agua.", "Leche.", "Carne.", "Verduras.", "Frutas.", "Cereal.", "Huevos.", "Aceite.")
+
 fun makeRecipe() {
-    val ingredientes: Array<String> =
-        arrayOf("Agua.", "Leche.", "Carne.", "Verduras.", "Frutas.", "Cereal.", "Huevos.", "Aceite.")
+
     println("Selecciona los ingredientes:\n")
     for (i in ingredientes) {
         println("$i")
@@ -180,7 +182,9 @@ fun makeRecipe() {
 }
 
 fun viewRecipe() {
-    println("Aqui estan tus recetas:\nPor el momento se encuentra vacia la lista de tus recetas.")
-    begin()
+    println("Aqui estan tus recetas:\n")
+    for (i in ingredientes) {
+        println("$i")
+    }
 }
 
